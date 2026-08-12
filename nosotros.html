@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intertech | Nosotros</title>
+  <link rel="stylesheet" href="nosotros.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- =========================================
+       TOP BAR & NAVBAR 
+       ========================================= -->
+  <div class="header-wrapper" id="header-wrapper">
+    <div class="top-bar" id="top-bar">
+      <div class="container top-bar-content">
+        <div class="top-bar-left">
+          <span>Atención 24/7 a nivel nacional</span>
+        </div>
+        <div class="top-bar-right">
+          <span>T. (01) 6523531</span>
+          <span class="divider">|</span>
+          <span>rlopez@intertechper.net</span>
+          <span class="divider">|</span>
+          <a href="#" class="login-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            Iniciar sesión
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <header class="navbar" id="main-nav">
+      <div class="container nav-content">
+        <a href="index.html" class="logo-container">
+          <img src="images/logomejorado.jpg" alt="Intertech Logo" class="logo">
+        </a>
+        <nav class="links" id="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="nosotros.html" class="active">Nosotros</a>
+          <a href="contactanos.html">Contacto</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="contactanos.html" class="btn-primary btn-small btn-magnetic hidden-mobile">Contactar</a>
+          <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- =========================================
+       HERO (Imagen de fondo con efecto Ken Burns)
+       ========================================= -->
+  <section class="hero-corporate reveal">
+    <div class="hero-overlay"></div>
+    <div class="container relative z-10 center">
+      <div class="hero-text" id="hero-parallax">
+        <h1>Trayectoria y Confianza Técnica</h1>
+        <p>Una corporación peruana con más de 16 años consolidando la operatividad de la industria y el transporte pesado a nivel nacional.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       INTERACCIÓN 1: LÍNEA DE TIEMPO (ADN INTERTECH)
+       ========================================= -->
+  <section class="section timeline-section reveal" id="timeline-story">
+    <!-- Usamos imágenes que sí tienes. Se verán nítidas y oscurecidas para resaltar el texto -->
+    <div class="timeline-bg-container">
+      <img src="images/2008.jpg" id="bg-time-1" class="timeline-bg active" alt="Origen">
+      <img src="images/2015.jpg" id="bg-time-2" class="timeline-bg" alt="Crecimiento">
+      <img src="images/mision.jpg" id="bg-time-3" class="timeline-bg" alt="Consolidación">
+    </div>
+    
+    <div class="container relative z-10">
+      <div class="center mb-4">
+        <span class="eyebrow" style="color: var(--color-secundario);">Nuestra Historia</span>
+        <h2 style="color: #fff;">ADN de Ingeniería Peruana</h2>
+      </div>
+
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        
+        <!-- Hito 1: Origen -->
+        <div class="timeline-item time-left reveal" data-time-bg="bg-time-1">
+          <div class="timeline-content hover-zoom">
+            <div class="time-date">2008</div>
+            <h3>Fundación y Visión</h3>
+            <p>INTERTECH nace como respuesta a la necesidad del mercado B2B de un soporte técnico postventa de alta fidelidad para maquinaria pesada.</p>
+          </div>
+        </div>
+
+        <!-- Hito 2: Expansión -->
+        <div class="timeline-item time-right reveal" data-time-bg="bg-time-2">
+          <div class="timeline-content hover-zoom">
+            <div class="time-date">2015</div>
+            <h3>Cobertura Nacional 24/7</h3>
+            <p>Consolidamos nuestra red de auxilio mecánico móvil, operando en los proyectos mineros y de construcción más exigentes del país.</p>
+          </div>
+        </div>
+
+        <!-- Hito 3: Actualidad -->
+        <div class="timeline-item time-left reveal" data-time-bg="bg-time-3">
+          <div class="timeline-content hover-zoom">
+            <div class="time-date">Hoy</div>
+            <h3>Liderazgo Consolidado</h3>
+            <p>16 años de experiencia respaldan nuestra capacidad diagnóstica multimarca, siendo socios estratégicos de las principales flotas del Perú.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       INTERACCIÓN 2: MISIÓN/VISIÓN ASIMÉTRICA 3D
+       ========================================= -->
+  <section class="section bg-light border-y reveal">
+    <div class="container mission-vision-container">
+      
+      <!-- Panel Misión -->
+      <div class="mv-panel mission-panel tilt-card">
+        <img src="images/Nuestra Misión.jpg" alt="Misión Intertech" class="mv-bg">
+        <div class="mv-overlay"></div>
+        <div class="mv-content tilt-card-content">
+          <h2>Nuestra Misión</h2>
+          <p>Satisfacer las necesidades de nuestros clientes corporativos brindándoles soluciones y servicios postventa de calidad a un precio competitivo, contribuyendo al desarrollo de la industria.</p>
+        </div>
+      </div>
+
+      <!-- Panel Visión -->
+      <div class="mv-panel vision-panel tilt-card delay-1">
+        <img src="images/Nuestra Visión.jpg" alt="Visión Intertech" class="mv-bg">
+        <div class="mv-overlay"></div>
+        <div class="mv-content tilt-card-content">
+          <h2>Nuestra Visión</h2>
+          <p>Ser líderes consolidados en los mercados industriales, reconocidos plenamente por la calidad del servicio técnico que prestamos, basados en la colaboración, responsabilidad e integridad.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================
+       INTERACCIÓN 3: PILARES ESTRATÉGICOS ANIMADOS
+       ========================================= -->
+  <section class="section bg-white reveal">
+    <div class="container">
+      <div class="center mb-4">
+        <span class="eyebrow">Eficiencia B2B</span>
+        <h2>Objetivos Estratégicos</h2>
+        <p style="max-width: 600px; margin: 0 auto;">Nuestro sistema de gestión está estrictamente orientado a cumplir los tres pilares de fiabilidad operativa.</p>
+      </div>
+
+      <div class="pillars-grid" id="pillars-trigger">
+        <div class="pilar-item reveal">
+          <div class="pilar-visual">
+            <div class="pilar-number">0</div>
+            <div class="pilar-icon">✓</div>
+          </div>
+          <h3>Cero Accidentes</h3>
+          <p>Prioridad absoluta en seguridad operacional, protegiendo a nuestro personal y su inversión.</p>
+        </div>
+
+        <div class="pilar-item reveal delay-1">
+          <div class="pilar-visual">
+            <div class="pilar-number">0</div>
+            <div class="pilar-icon">✓</div>
+          </div>
+          <h3>Cero Defectos</h3>
+          <p>Trazabilidad total en repuestos originales e instrumentación de taller certificada.</p>
+        </div>
+
+        <div class="pilar-item reveal delay-2">
+          <div class="pilar-visual">
+            <div class="pilar-number">0</div>
+            <div class="pilar-icon">✓</div>
+          </div>
+          <h3>Cero Fallas</h3>
+          <p>Continuidad asegurada mediante diagnósticos predictivos que evitan paradas mecánicas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       VALORES COMPLETOS (Grid de 4)
+       ========================================= -->
+  <section class="section bg-light border-top reveal" id="valores">
+    <div class="container center">
+      <span class="eyebrow">Cultura Organizacional</span>
+      <h2>Valores en Acción</h2>
+      <p style="max-width: 700px; margin: 0 auto 4rem auto;">Tradición, técnica y responsabilidad en cada intervención en campo.</p>
+      
+      <div class="valores-grid mt-2">
+        <!-- Valor 1 -->
+        <article class="valor-card hover-float">
+          <div class="valor-inner">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h4l2-3h6l2 3h4"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+            <h3>Compromiso 24/7</h3>
+            <p>Atendemos contingencias con rapidez continua para minimizar tiempos de paro en su producción.</p>
+          </div>
+        </article>
+
+        <!-- Valor 2 -->
+        <article class="valor-card hover-float delay-1">
+          <div class="valor-inner">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 4v6c0 5-3.6 9.7-7 10-3.4-.3-7-5-7-10V6l7-4z"/></svg>
+            </div>
+            <h3>Seguridad Operativa</h3>
+            <p>Procesos estandarizados bajo normativas internacionales para mitigar riesgos en obra.</p>
+          </div>
+        </article>
+
+        <!-- Valor 3 -->
+        <article class="valor-card hover-float delay-2">
+          <div class="valor-inner">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2l4 4-8 8-4-4 8-8z"/></svg>
+            </div>
+            <h3>Excelencia Técnica</h3>
+            <p>Inversión constante en escáneres, herramientas de taller y formación continua especializada.</p>
+          </div>
+        </article>
+
+        <!-- Valor 4 -->
+        <article class="valor-card hover-float delay-3">
+          <div class="valor-inner">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Transparencia B2B</h3>
+            <p>Presupuestos claros, trazabilidad en repuestos y comunicación directa ingeniería-empresa.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-wrapper">
+          <img src="images/logomejorado.jpg" alt="Intertech Logo">
+        </div>
+        <p>16 años de trayectoria brindando confianza técnica al sector B2B en minería, construcción e industria.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Empresa</h4>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="nosotros.html">Nosotros</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto Central</h4>
+        <p><strong>Tel:</strong> (01) 6523531</p>
+        <p><strong>Email:</strong> rlopez@intertechper.net</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Intertech E.I.R.L. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- =========================================
+       SCRIPTS 
+       ========================================= -->
+  <script>
+    // 1. Reveal (Aparición limpia)
+    document.addEventListener("DOMContentLoaded", () => {
+      const elementos = document.querySelectorAll(".reveal");
+      const observador = new IntersectionObserver((entradas) => {
+        entradas.forEach(entrada => {
+          if (entrada.isIntersecting) { 
+            entrada.target.classList.add("active"); 
+            observador.unobserve(entrada.target); 
+          }
+        });
+      }, { threshold: 0.15 });
+      elementos.forEach(el => observador.observe(el));
+    });
+
+    // 2. Control Navbar
+    const headerWrapper = document.getElementById('header-wrapper');
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    window.addEventListener('scroll', () => {
+      window.scrollY > 50 ? headerWrapper.classList.add('scrolled') : headerWrapper.classList.remove('scrolled');
+    });
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+      if(navLinks.classList.contains('show')) headerWrapper.classList.add('scrolled');
+    });
+
+    // 3. INTERACCIÓN LÍNEA DE TIEMPO (Transición suave del fondo)
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    const timelineBgs = document.querySelectorAll('.timeline-bg');
+
+    const timelineObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const targetBgId = entry.target.getAttribute('data-time-bg');
+          
+          timelineBgs.forEach(bg => bg.classList.remove('active'));
+          const targetBg = document.getElementById(targetBgId);
+          if(targetBg) targetBg.classList.add('active');
+        }
+      });
+    // Ajustado el margin para que cambie exactamente al llegar al medio
+    }, { rootMargin: "-45% 0px -45% 0px" });
+
+    timelineItems.forEach(item => timelineObserver.observe(item));
+
+    // 4. INTERACCIÓN 3D TILT MISIÓN/VISIÓN
+    const tiltCards = document.querySelectorAll('.tilt-card');
+    tiltCards.forEach(card => {
+      const content = card.querySelector('.tilt-card-content');
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left; const y = e.clientY - rect.top;
+        const centerX = rect.width / 2; const centerY = rect.height / 2;
+        const rotateX = ((y - centerY) / centerY) * -8;
+        const rotateY = ((x - centerX) / centerX) * 8;
+        content.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.01, 1.01, 1.01)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        content.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+      });
+    });
+
+    // 5. MAGNETIC BUTTONS 
+    const magBtns = document.querySelectorAll('.btn-magnetic');
+    magBtns.forEach(btn => {
+      btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect();
+        const x = e.clientX - rect.left - (rect.width / 2); 
+        const y = e.clientY - rect.top - (rect.height / 2);
+        btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+      });
+      btn.addEventListener('mouseleave', () => { btn.style.transform = `translate(0px, 0px)`; });
+    });
+  </script>
+</body>
+</html>
